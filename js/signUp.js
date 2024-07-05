@@ -58,5 +58,5 @@ function checkEmailExist() {
             return true;
     }
 }
-signUpBtn.addEventListener('click', signUp)
+signUpBtn.addEventListener('click', signUp())
 
