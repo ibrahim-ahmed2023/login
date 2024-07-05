@@ -43,4 +43,4 @@ function checkInputsEmpty() {
     else
         return false;
 }
-loginBtn.addEventListener('click', logIn);
+loginBtn.addEventListener('click', logIn());
