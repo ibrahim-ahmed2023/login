@@ -15,7 +15,7 @@ function logIn() {
     {
         if(checkEmailPassword() == true)
         {
-            window.location.href='../home.html';
+            window.location.href='./home.html';
         }
         else
         {
