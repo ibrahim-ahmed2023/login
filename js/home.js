@@ -10,7 +10,7 @@ function logOut()
 {
     //navigate login page
     //remove userName from localstorage
-    window.location.href='../index.html';
+    window.location.href='./index.html';
     localStorage.removeItem('userName');
 }
 logOutBtn.addEventListener('click',logOut)
