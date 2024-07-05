@@ -30,7 +30,7 @@ function signUp() {
             localStorage.setItem('Users', JSON.stringify(userContainer));
             clrFrorm();
             getAlertMessage('Success', 'green');
-            location.href = '../index.html';
+            location.href = './index.html';
 
         }
     }
