@@ -13,4 +13,4 @@ function logOut()
     window.location.href="../index.html";
     localStorage.removeItem('userName');
 }
-logOutBtn.addEventListener('click',logOut)
+logOutBtn.addEventListener('click',logOut())
